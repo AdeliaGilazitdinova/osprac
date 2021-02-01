@@ -8,7 +8,7 @@ int main(int argc, const char * argv[]) {
     } else if (pid == 0){
         printf("pid = %d (child)\n", (int)getpid());
     } else {
-        printf("ppid = %d (parent)\n", (int)getppid());
+        printf("pid = %d (parent)\n", (int)getpid());
     }
     return 0;
 }
